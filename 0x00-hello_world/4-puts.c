@@ -1,10 +1,11 @@
 include <stdio.h>
 /**
- * main-Entry
- * Return: Always 0
+ * main - Entry point 
+ *
+ * Return: Always 0 (Success)
  */
-int puts(void)
+int main(void)
 {
-	main("Programming is like building a multi lingual puzzle\n");
+	puts("Programming is like building a multi lingual puzzle\n");
 	return (0);
 }
