@@ -8,6 +8,6 @@ int main(void)
 {
 	int n;
         rand(time(0));
-        n = rand() - RAND_MAX /2;
+        n = rand() - RAND_MAX / 2;
         return (0);
 }
