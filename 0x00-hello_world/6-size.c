@@ -3,8 +3,7 @@
  * main - Entry
  * Return: Always 0
  */
-main(void)
-	int main(void)
+int main(void)
 {
 	printf("Size of a char: %i bute(s)\n", sizeof(char));
 	printf("Size of an int: %i byte(S)\n", sizeof(int));
