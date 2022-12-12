@@ -8,7 +8,6 @@ int main(void)
 {
 	int w;
 
-	w = 0;
 	for (w = 0; w < 80; w++)
 	{
 		putchar(w + '0');
