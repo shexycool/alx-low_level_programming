@@ -8,10 +8,10 @@ int main(void)
 {
 	int w;
 
-	for (w = 0; w < 80; w++)
+	for (w = 0; w < 10; w++)
 	{
 		putchar(w + '0');
-		if (w < 79)
+		if (w < 10)
 		{
 			putchar(',');
 			putchar(' ');
