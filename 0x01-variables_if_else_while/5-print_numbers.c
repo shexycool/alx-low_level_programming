@@ -9,6 +9,8 @@ int main(void)
 {
 	char n = 10;
 
+	char r;
+
 	if (r == 0; r < n;)
 		putchar(r);
 		r++;
