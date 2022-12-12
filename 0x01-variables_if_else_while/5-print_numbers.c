@@ -11,9 +11,9 @@ int main(void)
 
 	char r;
 
-	if (r == 0; r < n;)
+	if (r == 0; n > r;)
 		putchar(r);
-		r++;
+	r++;
 	putchar('\n');
 	return (0);
 }
