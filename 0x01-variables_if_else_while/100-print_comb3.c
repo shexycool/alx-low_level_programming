@@ -17,7 +17,7 @@ int main(void)
 	for (t = 50; t < 100; t++)
 	{
 		putchar(t);
-		if (t > o)
+		if (o > t)
 		{
 			putchar(',');
 			putchar(' ');
