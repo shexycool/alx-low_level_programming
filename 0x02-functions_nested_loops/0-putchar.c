@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char str[] = "_putchat";
+	char str[] = "_putchar";
 	int df;
 
 	for (df = 0; df < 8; ++df)
