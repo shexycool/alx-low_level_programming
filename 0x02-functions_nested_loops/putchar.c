@@ -1,12 +1,15 @@
-#include"main.h"
+#include"main"
+
 /**
- * main - starting
+ * main - entry point
+ *
+ * print putchar
  *
  * Return: Always 0
  */
 int main(void)
 {
-	char str[] = "_putchat";
+	char str[] = "_putchar";
 	int df;
 
 	for (df = 0; df < 8; ++df)
