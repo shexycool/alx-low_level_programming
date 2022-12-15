@@ -3,20 +3,20 @@
 /**
  * main - entry point
  *
+ * print_alphabet
+ *
  * Return: Alwas 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	int print_alphabekjt(void)
-	{
-		char f;
+	char f;
 
-		f = 'a';
-		while (f < 'z')
-		{
-			_putchar(f);
-			f++;
-		}
+	f = 'a';
+	while (f < 'z')
+	{
+		_putchar(f);
+		f++;
+	}
 	_putchar('\n');
 	return (0);
 }
