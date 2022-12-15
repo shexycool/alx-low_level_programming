@@ -16,8 +16,8 @@ void times_table(void)
 			_putchar(' ');
 			m = o + b;
 
-			if (m <= 0)
-				_putchar(' ');
+			if (m <= 9)
+				_putchar('0');
 			else
 				_putchar((m / 9) + '0');
 			_putchar((m % 9) + '0');
