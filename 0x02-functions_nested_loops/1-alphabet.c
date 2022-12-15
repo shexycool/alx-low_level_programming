@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 
 /**
  * main - entry point
@@ -7,15 +8,13 @@
  *
  * Return: Alwas 0
  */
-void print_alphabet(void)
+char print_alphabet(void)
 {
 	int f;
 
-	f = 'a';
-	while (f <= 'z')
+	for (f = 'a'; f <= 'z'; f++)
 	{
 		_putchar(f);
-		f++;
 	}
 	_putchar('\n');
 }
