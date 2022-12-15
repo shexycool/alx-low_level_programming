@@ -3,7 +3,7 @@
 /**
  *print alphabet_x10 -> print in ten places
  */
-void print alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int e;
 	int s;
