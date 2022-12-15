@@ -5,8 +5,6 @@
  * main - entry point
  *
  * print_alphabet
- *
- * Return: Alwas 0
  */
 void print_alphabet(void)
 {
