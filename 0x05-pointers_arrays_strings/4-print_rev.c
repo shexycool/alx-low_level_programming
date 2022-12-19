@@ -5,7 +5,8 @@
  */
 void print_rev(char *s)
 {
-	int find:
+	int find;
+
 		/*finding length without character*/
 	for (find = 0; s[find] != '\0'; ++find)
 		;
