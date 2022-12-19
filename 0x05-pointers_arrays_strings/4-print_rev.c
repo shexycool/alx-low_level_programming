@@ -3,7 +3,7 @@
  * print_rev -> printing string in reverseand a new line
  * @s: string to print
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int find:
 		/*finding length without character*/
